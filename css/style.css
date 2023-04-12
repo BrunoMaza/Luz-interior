@@ -23,6 +23,8 @@ header{display: flex;
 footer {background-color: #333333;
         display: flex;}
 
+body {background-color: rgb(190, 190, 190);}
+
 
 /*DESKTOP INDEX*/
 @media (min-width:1024px) {
@@ -146,12 +148,23 @@ a {
 
 /*Mobile*/
 @media (max-width:768px) {
-    body {background-color: rgb(87, 87, 87);}
-    nav ul {list-style: none;
+body {background-color: rgb(98, 98, 107);}
+nav ul {list-style: none;
         display: flex;
-        margin: 0;
-        padding: 0;}
-}
+        overflow: hidden;
+        max-width: 100%;}
+        a:hover{font-size: 30px; 
+                background-color: rgb(255, 255, 255);
+                color: rgb(167, 39, 39);}
+                a { color: rgb(255, 255, 255);
+                list-style: none;}
+        
+.encabezado1 {text-align: center;
+              margin: 5%;}
+
+.ulfooter {list-style: none;
+           display: flex;
+        }
 
 
 
