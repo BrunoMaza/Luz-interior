@@ -146,28 +146,49 @@ a {
 { }
 
 
+
+
 /*Mobile*/
 @media (max-width:768px) {
+        header {display: flex;
+        text-align: center;
+t;}
 body {background-color: rgb(98, 98, 107);}
-nav ul {list-style: none;
-        display: flex;
-        overflow: hidden;
+
+nav {list-style: none;
+        display: inline;
         max-width: 100%;}
-        a:hover{font-size: 30px; 
-                background-color: rgb(255, 255, 255);
-                color: rgb(167, 39, 39);}
-                a { color: rgb(255, 255, 255);
-                list-style: none;}
+  
+
+a:hover{font-size: 30px; 
+        background-color: rgb(255, 255, 255);
+        color: rgb(167, 39, 39);}
+                
+a { color: rgb(255, 255, 255);
+        text-decoration: none;}
         
 .encabezado1 {text-align: center;
               margin: 5%;}
 
-.ulfooter {list-style: none;
-           display: flex;
-        }
+.redessociales {text-decoration: none;
+                list-style: none;
+                }
 
+footer {display:grid;
+        grid-template-areas:
+        "empresa"
+        "Redes";
+        grid-template-columns: 50%
+        grid-template-rows: auto auto;
+        text-align: center;
+        text-decoration: none;
+        text-overflow: content;
+}
 
+.boxdiv {background-color: blue;
+        margin: 2%;}
 
+}
 
 
 
@@ -206,7 +227,6 @@ nav ul {list-style: none;
     align-items: center;
     margin: 0 auto;
   }
-
 
 
 
@@ -273,29 +293,3 @@ nav ul {list-style: none;
 .Elegítutienda {
                 font-size: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-    /* Página novedades */
-@media (min-width:1024px) {
-    
-
-
-
-
-
-
-
-
-
-
-    }
