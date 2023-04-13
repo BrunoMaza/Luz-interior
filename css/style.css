@@ -1,6 +1,5 @@
 /*GENERALES*/
-header{display: flex;
-        background-color: #333333;
+header{
         padding: 0px;
         margin: 0px;}
         
@@ -20,10 +19,9 @@ header{display: flex;
                 background-color: rgb(255, 255, 255);
                 color: black;}
 
-footer {background-color: #333333;
-        display: flex;}
 
-body {background-color: rgb(190, 190, 190);}
+
+body {background-color: #bebebe;}
 
 
 /*DESKTOP INDEX*/
@@ -36,9 +34,17 @@ body {background-color: rgb(190, 190, 190);}
             "main"
             "footer";}
 
-header {grid-area: header;}
-main {grid-area: main;}
-footer{grid-area: footer;}
+header {grid-area: header;
+        display: flex;
+        background-color: #333333;
+        text-overflow: content;}
+
+main {grid-area: main;
+}
+
+footer{grid-area: footer;
+display: flex;
+background-color: #333333;}
 
 .gridmain {display: grid;
         grid-template-areas: 
@@ -143,7 +149,17 @@ a {
 
 /*Tablet*/
 @media (min-width:769px) and (max-width:1023px)
-{ }
+{
+        header {display: flex;
+                background-color: #333333;}
+        body {background-color: #bebebe;}
+        footer {display: flex;
+        background-color: #333333;}
+
+
+}
+
+
 
 
 
@@ -151,20 +167,43 @@ a {
 /*Mobile*/
 @media (max-width:768px) {
         header {display: flex;
+        background-color: #333333;}
+  
+        footer {display:grid;
+        grid-template-areas:
+        "empresa"
+        "Redes";
+        grid-template-columns: 50%
+        grid-template-rows: auto auto;
         text-align: center;
-t;}
-body {background-color: rgb(98, 98, 107);}
+        text-decoration: none;
+        text-overflow: content;
+        background-color: #333333;
+        display: flex;
+}
 
 nav {list-style: none;
-        display: inline;
-        max-width: 100%;}
-  
+        display: inline;}
 
-a:hover{font-size: 30px; 
+li {display: flex;
+list-style: none;
+}
+
+ul {list-style: none;
+}
+
+body {background-color: rgb(98, 98, 107);
+        text-align: center;
+}
+
+main {margin: 20px;}
+
+
+a:hover{font-size: 50px; 
         background-color: rgb(255, 255, 255);
         color: rgb(167, 39, 39);}
                 
-a { color: rgb(255, 255, 255);
+a {     color: rgb(255, 255, 255);
         text-decoration: none;}
         
 .encabezado1 {text-align: center;
@@ -174,20 +213,10 @@ a { color: rgb(255, 255, 255);
                 list-style: none;
                 }
 
-footer {display:grid;
-        grid-template-areas:
-        "empresa"
-        "Redes";
-        grid-template-columns: 50%
-        grid-template-rows: auto auto;
-        text-align: center;
-        text-decoration: none;
-        text-overflow: content;
-}
 
-.boxdiv {background-color: blue;
-        margin: 2%;}
-
+.boxdiv {display: flex;
+        justify-content: center;
+        background-color: rgb(138, 138, 138);}
 }
 
 
@@ -240,7 +269,7 @@ footer {display:grid;
 
 
 
-/* Página tienda */
+/* DESKTOP TIENDA */
 @media (min-width:1024px) {
     body {background-color: whitesmoke;}
     .gridtienda {
@@ -255,7 +284,9 @@ footer {display:grid;
 
 }
 
-
+.tituloprincipal {display: flex;
+        justify-content: space-between;
+        align-items: center;}
 
 
 
