@@ -29,8 +29,6 @@ body {background-color: #bebebe;}
 @media (min-width:1024px) 
 {
 .gridhome {display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto auto;
             grid-template-areas:
             "header"
             "main"
@@ -41,45 +39,38 @@ header {grid-area: header;
         background-color: #333333;
         text-overflow: content;}
 
-main {grid-area: main;
-}
-
 footer{grid-area: footer;
 display: flex;
 background-color: #333333;}
 
-.gridmain {display: grid;
-        grid-template-areas: 
-        "encabezado1 encabezado1 encabezado1"
-        "lamparasdepie lamparasdemesa colgantes"
-        "lamparasdepie apliques percheros"
-        "newsletter newsletter newsletter"
-        "formularionewsletter formularionewsletter formularionewsletter";
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto;}
+.gridmainindex {
+        display: grid;
+        grid-template-areas: "catalogospdf catalogospdf catalogospdf"
+                             "lamparasdepie lamparasdemesa apliques"
+                             "lamparasdepie colgantes percheros"
+                             "newsletter newsletter newsletter";
+        border: 1px solid black;
+}
 
-.formularionewsletter {grid-area: formularionewsletter;}
-.lamparasdepie {grid-area: lamparasdepie;}
-.lamparasdemesa {grid-area: lamparasdemesa;}
-.colgantes {grid-area: colgantes;}
-.apliques {grid-area: apliques;}
-.percheros {grid-area: percheros;}
 
-.parramesa {display: flex;
-            justify-content: center;
-        font-size: 23px;}
-.parrapie        {display: flex;
-            justify-content: center;}            
+.caja {
+        border: 4px solid black;
+        background-color: lightgray;
+        text-align: center;
+        line-height: 150px;
+        justify-content: center;
 
-.gridfooter{display:grid;
-        grid-template-areas:
-        "empresa Redes";
-        grid-template-columns: 50% 50%;
-        grid-template-rows: auto auto;}
+}
 
-.empresa {grid-area: empresa;}
+.c1 {grid-area: catalogospdf;}
+.c2 { grid-area: lamparasdepie;}
+.c3 { grid-area: lamparasdemesa}
+.c4 { grid-area: colgantes}
+.c5 { grid-area: apliques;}
+.c6 { grid-area: percheros;}
+.c7 { grid-area: newsletter;}
 
-.Redes {grid-area: Redes;}          
+        
 
 #emps {font-size: 35px;
                 padding:5px;
@@ -105,8 +96,8 @@ nav li {display: flex;
         margin-left: 70px;}
 
 
-.encabezado1 {
-        grid-area: encabezado1;
+h1 .encabezado {
+        grid-area: encabezado;
         font-size: 35px;
         text-align: center;
         padding: 5px;
@@ -138,6 +129,10 @@ a {
             align-items: center;
 }
 
+
+}
+
+
 /* DESKTOP TIENDA */
 
 .gridtienda {
@@ -146,8 +141,7 @@ a {
             "header"
             "main"
             "footer";
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto auto;
+
         }
 
 .gridmaintienda {
@@ -155,65 +149,47 @@ a {
                 grid-template-areas:
                 "tituloprincipal tituloprincipal"
                 "tiendamayorista tiendaminorista";
-                grid-template-columns: auto auto;
-                grid-template-rows: auto;
                 }
 
+.b1 {grid-area: tituloprincipal;}
+.b2 {grid-area: tiendamayorista;}
+.b3 {grid-area: tiendaminorista;}
 
 .tituloprincipal {
-        grid-area: tituloprincipal;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 20px;
-        padding: 20px;}
+        margin: 15px;
+        padding: 15px;}
 
 
 
 .tiendamayorista {
-                grid-area: tiendamayorista;
                     width: 350px;
                     height: 350px;
-                    margin: 5px;
-                    padding: 5px;
-                    margin-right: 25px;
-                    margin-bottom: 80px;
+                    margin: 30px;
+                    padding: 30px;
+
 }
 
 .tiendaminorista {
-        grid-area: tiendaminorista;
                     width: 350px;
                     height: 350px;
-                    margin: 5px;
-                    padding: 5px;
-                    margin-right: 25px;
-                    margin-bottom: 80px;
+                    margin: 30px;
+                    padding: 30px;
+}
+
+.caja {
+        border: 4px solid black;
+        background-color: lightgray;
+        text-align: center;
+        justify-content: center;
+
 }
 
 
-.divtiendas {display: flex;
-            justify-content: center;
-
-}
-
-
-.tienda {
-            font-size: 20px;
-            margin: 50px auto;
-            text-align: center;
-}
-
-.Elegítutienda {
-                font-size: 100px;
-}
-
-
-body {background-color: whitesmoke;}
-
-
-
-
-}
 
 
 
@@ -242,17 +218,17 @@ nav ul {display: flex;
         list-style: none;
         padding: 10px;
         margin: 30px;}
+
 nav ul li {margin: 10px;}
 
 a {color: rgb(0, 0, 0);
 text-decoration: none;
 font-size: 18px;}
 
-        body {background-color: #bebebe;}
+body {background-color: #bebebe;}
 
-        footer {display: flex;
+footer {display: flex;
         background-color: #333333;}
-
 
 }
 
