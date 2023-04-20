@@ -25,4 +25,18 @@ header nav ul li a:hover {
   color: rgb(0, 0, 0) !important;
 }
 
+main .titulo-principal {
+  margin: 60px 0px;
+}
+main .titulo-newsletter {
+  margin: 100px 0px 30px 0px;
+}
+
+footer {
+  margin-top: 50px !important;
+}
+footer .titulo-footer {
+  padding-top: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
