@@ -1,1 +1,39 @@
-header{background-color: #333333;}
+$black:black;
+$white:white;
+$f-size-p-desktop:20px;
+$f-size-p-mobile:18px;
+ 
+
+
+
+header{
+        background-color: #333333;
+        nav{
+            padding: 20px;
+            margin: 10px;
+            
+            ul{
+                list-style-type: none;
+                
+                li{
+                    padding: 10px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: whitesmoke;
+                        transition: 1s all;
+                        font:{
+                            size: 20px;
+                            family:tahoma;
+                            weight:normal ;
+                            }
+                        &:hover{
+                                background-color: rgb(255, 255, 255);
+                                border-radius: 20px;
+                                color: rgb(0, 0, 0) !important;
+                                }
+                    }
+                } 
+            }  
+        }  
+    }
