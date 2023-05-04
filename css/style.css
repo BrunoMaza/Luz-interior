@@ -1,28 +1,31 @@
-header {
+body .navbar {
+  text-align: center;
+}
+body header {
   background-color: #333333;
 }
-header nav {
+body header nav {
   padding: 3px;
   margin: 3px;
 }
-header nav ul {
+body header nav ul {
   list-style-type: none;
 }
-header nav ul li {
+body header nav ul li {
   padding: 10px;
 }
-header nav ul li a {
+body header nav ul li a {
   text-decoration: none;
   color: whitesmoke !important;
   transition: 1s all;
 }
-header nav ul li a font {
+body header nav ul li a font {
   text-decoration: none;
   size: 30px;
   family: tahoma;
   weight: normal;
 }
-header nav ul li a:hover {
+body header nav ul li a:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   color: rgb(0, 0, 0) !important;
@@ -30,6 +33,9 @@ header nav ul li a:hover {
 
 main .titulo-principal {
   margin: 60px 0px;
+}
+main .titulo-secundario {
+  margin-top: 60px;
 }
 main .titulo-newsletter {
   margin: 100px 0px 20px 0px;
