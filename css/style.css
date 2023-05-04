@@ -49,4 +49,10 @@ footer .titulo-footer {
   padding-top: 40px;
 }
 
+.parrafo-nosotros {
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
