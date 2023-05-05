@@ -40,6 +40,11 @@ main .titulo-secundario {
 main .titulo-newsletter {
   margin: 100px 0px 20px 0px;
 }
+main .titulo-novedades {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
 
 footer {
   margin-top: 100px !important;

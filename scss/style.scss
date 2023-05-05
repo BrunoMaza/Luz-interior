@@ -24,7 +24,7 @@ header{
                     padding: 10px;
                     
                     a{
-                        text-decoration: none;
+                        text-decoration: none; 
                         color: whitesmoke !important;
                         transition: 1s all;
                         font{
@@ -56,16 +56,21 @@ main{
     .titulo-newsletter {
         margin: 100px 0px 20px 0px;
     }
+    .titulo-novedades{
+        display: flex;
+        align-items: center;
+        padding: 60px;
+    }
 }
 
 
 
 footer { margin-top: 100px !important;
     background-color: #333333 !important;
-    .titulo-footer { padding-top: 40px;       
+    
+    .titulo-footer { padding-top: 40px;   
                     }
         }
-
 
         .parrafo-nosotros{
             margin-top: 40px;
