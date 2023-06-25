@@ -22,19 +22,16 @@ body header nav ul li {
 body header nav ul li a {
   text-decoration: none;
   color: whitesmoke !important;
-  transition: 1s all;
 }
 
 body header nav ul li a font {
   text-decoration: none;
   size: 30px;
-  family: tahoma;
-  weight: normal;
 }
 
 body header nav ul li a:hover {
   background-color: rgb(255, 255, 255);
-  border-radius: 20px;
+  transition: 1s;
   color: rgb(0, 0, 0) !important;
 }
 
@@ -70,5 +67,3 @@ footer .titulo-footer {
   display: flex;
   text-align: center;
 }
-
-/*# sourceMappingURL=style.css.map */
