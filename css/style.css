@@ -1,30 +1,37 @@
 body .navbar {
   text-align: center;
 }
+
 body header {
   background-color: #333333;
 }
+
 body header nav {
   padding: 3px;
   margin: 3px;
 }
+
 body header nav ul {
   list-style-type: none;
 }
+
 body header nav ul li {
   padding: 10px;
 }
+
 body header nav ul li a {
   text-decoration: none;
   color: whitesmoke !important;
   transition: 1s all;
 }
+
 body header nav ul li a font {
   text-decoration: none;
   size: 30px;
   family: tahoma;
   weight: normal;
 }
+
 body header nav ul li a:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
@@ -34,12 +41,15 @@ body header nav ul li a:hover {
 main .titulo-principal {
   margin: 60px 0px;
 }
+
 main .titulo-secundario {
   margin-top: 60px;
 }
+
 main .titulo-newsletter {
   margin: 100px 0px 20px 0px;
 }
+
 main .titulo-novedades {
   display: flex;
   align-items: center;
@@ -50,6 +60,7 @@ footer {
   margin-top: 100px !important;
   background-color: #333333 !important;
 }
+
 footer .titulo-footer {
   padding-top: 40px;
 }

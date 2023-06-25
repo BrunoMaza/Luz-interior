@@ -1,62 +1,66 @@
-$black:black;
-$white:white;
-$f-size-p-desktop:20px;
-$f-size-p-mobile:18px;
- 
+$black: black;
+$white: white;
+$f-size-p-desktop: 20px;
+$f-size-p-mobile: 18px;
 
-body{
+
+body {
     .navbar {
         text-align: center;
     }
 
 
-header{
+    header {
         background-color: #333333;
-        
-        nav{
+
+        nav {
             padding: 3px;
             margin: 3px;
-            
-            ul{
+
+            ul {
                 list-style-type: none;
-                
-                li{
+
+                li {
                     padding: 10px;
-                    
-                    a{
-                        text-decoration: none; 
+
+                    a {
+                        text-decoration: none;
                         color: whitesmoke !important;
                         transition: 1s all;
-                        font{
+
+                        font {
                             text-decoration: none;
                             size: 30px;
-                            family:tahoma;
-                            weight:normal;
-                            }
-                        &:hover{
-                                background-color: rgb(255, 255, 255);
-                                border-radius: 20px;
-                                color: rgb(0, 0, 0) !important;                            
-                                }
+                            family: tahoma;
+                            weight: normal;
+                        }
+
+                        &:hover {
+                            background-color: rgb(255, 255, 255);
+                            border-radius: 20px;
+                            color: rgb(0, 0, 0) !important;
+                        }
                     }
-                } 
-            }  
-        }  
-}
+                }
+            }
+        }
+    }
 }
 
-main{
-    .titulo-principal{
+main {
+    .titulo-principal {
         margin: 60px 0px;
     }
-    .titulo-secundario{
+
+    .titulo-secundario {
         margin-top: 60px;
     }
 
     .titulo-newsletter {
         margin: 100px 0px 20px 0px;
     }
-    .titulo-novedades{
+
+    .titulo-novedades {
         display: flex;
         align-items: center;
         padding: 60px;
@@ -65,15 +69,17 @@ main{
 
 
 
-footer { margin-top: 100px !important;
+footer {
+    margin-top: 100px !important;
     background-color: #333333 !important;
-    
-    .titulo-footer { padding-top: 40px;   
-                    }
-        }
 
-        .parrafo-nosotros{
-            margin-top: 40px;
-            display: flex;
-            text-align: center;
-        }
+    .titulo-footer {
+        padding-top: 40px;
+    }
+}
+
+.parrafo-nosotros {
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
